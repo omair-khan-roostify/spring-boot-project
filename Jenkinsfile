@@ -1,5 +1,5 @@
 @Library('jenkins-shared-libraries') _
 import com.john.*
 
-eo = new Pipeline()  
+eo = new EvenOddBuilder()  
 eo.evenOrOdd(currentBuild.getNumber())
