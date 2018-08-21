@@ -1,2 +1,5 @@
 @Library('jenkins-shared-libraries') _
-evenOrOdd(currentBuild.getNumber())
+import com.john.*
+
+eo = new evenOrOdd()  
+eo.evenOrOdd(currentBuild.getNumber())
