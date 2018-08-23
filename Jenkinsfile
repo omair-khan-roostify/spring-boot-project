@@ -3,4 +3,5 @@ import com.john.*
 
 //eo = new EvenOddBuilder()  
 //eo.evenOrOdd(currentBuild.getNumber())
-  evenOrOdd([isSonarNeeded : true])
+  def config = [isSonarNeeded : true]
+  evenOrOdd(config)
